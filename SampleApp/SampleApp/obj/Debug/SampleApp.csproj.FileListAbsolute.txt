@@ -1,0 +1,14 @@
+D:\Projs\TSL\TSLTestApp\CSharp\SampleApp\SampleApp\obj\Debug\SampleApp.csprojAssemblyReference.cache
+D:\Projs\TSL\TSLTestApp\CSharp\SampleApp\SampleApp\obj\Debug\SampleApp.Form1.resources
+D:\Projs\TSL\TSLTestApp\CSharp\SampleApp\SampleApp\obj\Debug\SampleApp.Properties.Resources.resources
+D:\Projs\TSL\TSLTestApp\CSharp\SampleApp\SampleApp\obj\Debug\SampleApp.csproj.GenerateResource.cache
+D:\Projs\TSL\TSLTestApp\CSharp\SampleApp\SampleApp\obj\Debug\SampleApp.csproj.CoreCompileInputs.cache
+D:\Projs\TSL\TSLTestApp\CSharp\SampleApp\SampleApp\bin\Debug\SampleApp.exe.config
+D:\Projs\TSL\TSLTestApp\CSharp\SampleApp\SampleApp\bin\Debug\SampleApp.exe
+D:\Projs\TSL\TSLTestApp\CSharp\SampleApp\SampleApp\bin\Debug\SampleApp.pdb
+D:\Projs\TSL\TSLTestApp\CSharp\SampleApp\SampleApp\bin\Debug\FPcore.dll
+D:\Projs\TSL\TSLTestApp\CSharp\SampleApp\SampleApp\bin\Debug\FPcore.xml
+D:\Projs\TSL\TSLTestApp\CSharp\SampleApp\SampleApp\obj\Debug\SampleApp.csproj.CopyComplete
+D:\Projs\TSL\TSLTestApp\CSharp\SampleApp\SampleApp\obj\Debug\SampleApp.exe
+D:\Projs\TSL\TSLTestApp\CSharp\SampleApp\SampleApp\obj\Debug\SampleApp.pdb
+D:\Projs\TSL\TSLTestApp\CSharp\SampleApp\SampleApp\bin\Debug\QRCoder.dll

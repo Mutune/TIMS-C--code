@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FPcore</name>
+    </assembly>
+    <members>
+        <member name="M:FPcore.Do(System.String,System.Object[])">
+            <summary>
+            Executes command
+            </summary>
+        </member>
+        <member name="M:FPcore.CreateRes``1(System.Xml.Linq.XElement)">
+            <summary>
+            Creates result values corresponding of the result class
+            </summary>
+        </member>
+        <member name="M:FPcore.ServerGetSettings">
+            <summary>
+            Gets device serial port and TCP/IP communication settings.
+            </summary>
+        </member>
+        <member name="M:FPcore.ServerSetDeviceSerialPortSettings(System.String,System.Int32)">
+            <summary>
+            Sets Device serial port communication settings.
+            </summary>
+            <param name="serialPort">Serial port</param>
+            <param name="baudRate">Baud rate</param>
+        </member>
+        <member name="M:FPcore.ServerFindDevice(System.String@,System.Int32@)">
+            <summary>
+            Finds first device on serial port.
+            </summary>
+            <param name="serialPort">return device Serial port</param>
+            <param name="baudRate">return device Baud rate</param>
+        </member>
+        <member name="M:FPcore.ServerSetDeviceTcpSettings(System.String,System.Int32,System.String)">
+            <summary>
+            Sets Device TCP/IP communication settings.
+            </summary>
+            <param name="ip">IP address</param>
+            <param name="tcpPort">TCP port</param>
+            <param name="password">ZFP password</param>
+        </member>
+        <member name="M:FPcore.ServerSendGETRequest(System.String)">
+            <summary>
+            Sends request via GET method
+            </summary>
+            <param name="str">String request</param>
+        </member>
+        <member name="M:FPcore.ServerCloseDeviceConnection">
+            <summary>
+            Disconnects from device - this method must be invoked when closing the app or when stop working with the server!
+            </summary>
+        </member>
+        <member name="M:FPcore.ServerRestart">
+            <summary>
+            Remote server restart 
+            </summary>
+        </member>
+        <member name="M:FPcore.ServerStop">
+            <summary>
+            Remote server stop 
+            </summary>
+        </member>
+        <member name="M:FPcore.ServerSetLog(System.Boolean)">
+            <summary>
+            Set Log on or off, by default is ON
+            </summary>
+            <param name="on">
+            on - true,
+            off - false
+            </param>
+        </member>
+        <member name="M:FPcore.ServerGetLog">
+            <summary>
+            Returns client log
+            </summary>
+        </member>
+        <member name="M:FPcore.ServerGetClients">
+            <summary>
+            Returns all clients connected to the server
+            </summary>
+        </member>
+        <member name="M:FPcore.ServerRemoveAllClients">
+            <summary>
+            Disconnect all clients connected to the server
+            </summary>
+        </member>
+        <member name="M:FPcore.SendRAWRequest(System.Xml.Linq.XElement)">
+            <summary>
+            Send xml directly to ZFP server
+            </summary>
+        </member>
+        <member name="T:SException">
+            <summary>
+            SException inheritance of Exception Class
+            </summary>
+        </member>
+        <member name="F:SException.ErrType">
+            <summary>
+            Server Error Type
+            </summary>
+        </member>
+        <member name="M:SException.#ctor(SErrorType,System.String,System.Exception)">
+            <summary>
+            Initializes a new instance of the SException class with specified error type, error message and a reference to the inner exception that is the cause of this exception.
+            </summary>
+            <param name="err_type">Returns a number corresponding to one of the error values. </param>
+            <param name="msg">The error message that explains the reason for the exception. </param>
+            <param name="inner_ex">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified. </param>
+        </member>
+        <member name="M:SException.IsFiscalPrinterError">
+            <summary>
+            Returns true, if the exception is caused in FP device 
+            </summary>
+            <returns>Bool value</returns>
+        </member>
+        <member name="P:SException.STE1">
+            <summary>
+            Error Status Byte 1 - contain FP error code
+            </summary>
+        </member>
+        <member name="P:SException.STE2">
+            <summary>
+            Error Status Byte 2 - contain FP command error code
+            </summary>
+        </member>
+        <member name="P:SException.FPLibErrorCode">
+            <summary>
+            Get/Set  FPLib Error Code
+            </summary>
+        </member>
+    </members>
+</doc>
